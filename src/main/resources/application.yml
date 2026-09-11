@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: API_Project
+  datasource:
+    url: jdbc:postgresql://localhost:5432/document_api
+    username: admin
+    password: adminpassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  flyway:
+    enabled: true
